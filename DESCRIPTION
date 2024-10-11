@@ -1,0 +1,14 @@
+Package: MREILLS
+Type: Package
+Title: MREILLS
+Version: 0.1.0
+Author: Lei Hou
+Maintainer: Lei Hou <houlei@bicmr.pku.edu.cn>
+Description: Univariable and Multivariable Mendelian Randomization Method Integrating Multiple Heterogeneous GWAS Summary Datasets (Lei Hou)
+License: 1.1.0
+Encoding: UTF-8
+Imports: MASS, ggplot2, ggridges
+LazyData: true
+Suggests: 
+    R (>= 3.5.0)
+RoxygenNote: 7.2.3
