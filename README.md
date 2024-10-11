@@ -4,24 +4,7 @@
 `devtools::install_github("hhoulei/MREILLS")`  
 
 ***Toy Example***  
-`betaXG <- NULL`  
-`sebetaXG <- NULL`  
-`sebetaYG <- NULL`  
-`for(i in 1:5){`  
-`  betaXG <- cbind(betaXG,runif(100,0.05,0.2))`  
-`  sebetaXG <- cbind(sebetaXG,runif(100,0.01,0.1))`  
-`  sebetaYG <- cbind(sebetaYG,runif(100,0.01,0.1))`  
-`}`  
-`betaYG <- betaXG*0.2 + rnorm(100)`  
-`race_name <- c('target1','target2','target3','target4','auxiliary')`  
-`colnames(betaXG) <- race_name`  
-`colnames(betaYG) <- race_name`  
-`colnames(sebetaXG) <- race_name`  
-`colnames(sebetaYG) <- race_name`  
-`rho <- NULL`  
-`meth <- 'CG'`  
-`RESULT <- TEMR(betaXG,betaYG,sebetaXG,sebetaYG,rho,meth)`  
-`RESULT`  
+
 `# generate data`  
 `#library(ggplot2)`  
 `#library(ggridges)`  
