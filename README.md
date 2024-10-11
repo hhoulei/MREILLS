@@ -53,7 +53,7 @@
 `res_lambda$plot`  
 
 ***Citation***:  
-Univariable and Multivariable Mendelian Randomization Method Integrating Multiple Heterogeneous GWAS Summary Datasets
+Univariable and Multivariable Mendelian Randomization Method Integrating Multiple Heterogeneous GWAS Summary Datasets  
 Lei Hou, Xiaohua Zhou
 
 Please contact houlei@bicmr.pku.edu.cn for any questions. We will continue to update this R package and reduce the problems that may be encountered during its installation.
